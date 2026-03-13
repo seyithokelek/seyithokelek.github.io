@@ -4,10 +4,10 @@
 
 title: Seyit Hökelek # the website title (if blank, full name will be used instead)
 first_name: Seyit
-middle_name: 
+middle_name:
 last_name: Hökelek
 contact_note: >
-  
+
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   PhD Candidate in Astronomy and Space Sciences at Erciyes University. 
   Focusing on AGN, Quasars, and Data Science.
@@ -130,7 +130,6 @@ disqus_shortname: al-folio # put your disqus shortname
 # Optional: Set default categories and tags for posts from each source.
 external_sources:
 
-
 # -----------------------------------------------------------------------------
 # Newsletter
 # -----------------------------------------------------------------------------
@@ -217,7 +216,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-socials
   - jekyll-tabs
-#  - jekyll-terser
+  #  - jekyll-terser
   - jekyll-toc
   - jekyll-twitter-plugin
   - jemoji

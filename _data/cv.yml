@@ -7,12 +7,10 @@ cv:
   summary: "PhD Candidate in Astronomy and Space Sciences focused on Active Galactic Nuclei (AGN), Quasars, and Time-Domain Astronomy. Experienced researcher with strong skills in Python, Machine Learning, and optical spectroscopy data analysis (RTT-150). Dedicated to developing open-source astrophysics software."
 
   social_networks:
-    - network: Website
-      username: seyithokelek.github.io
-    - network: ORCID
-      username: 0000-0002-2534-0584
     - network: GitHub
       username: seyithokelek
+    - network: ORCID
+      username: 0000-0002-2534-0584
 
   address:
     street: Erciyes University, Dept. of Astronomy and Space Sciences
@@ -29,12 +27,11 @@ cv:
         area: Astronomy and Space Sciences
         studyType: PhD Candidate
         start_date: 2023-09-01
-        end_date: Present
-        score: ""
-        courses: "The Baldwin Effect in Quasars"
+        end_date: ""
         highlights:
           - "Thesis Topic: The Baldwin Effect in Quasars: Investigation of Processes and Mechanisms"
           - "Supervisor: Assist. Prof. Dr. Nurten FİLİZ AK"
+          - "Courses: The Baldwin Effect in Quasars"
 
       - institution: Erciyes University
         location: Kayseri, Türkiye
@@ -61,7 +58,7 @@ cv:
         position: Principal Investigator / Co-Investigator
         location: Antalya / Remote
         start_date: 2020-01-01
-        end_date: Present
+        end_date: ""
         summary: Completed over 80 nights of fully remote observing using the RTT-150 Telescope (1.5m).
         highlights:
           - "Performed optical long-slit and multi-object spectroscopy, and broad-band photometry using TFOSC."
@@ -86,159 +83,118 @@ cv:
           - "Utilized optical spectroscopy data from RTT-150 to confirm six previously unclassified sources."
           - "Measured emission lines (Hβ, [OIII], Hα) to estimate black hole masses and Eddington ratios."
           - "Confirmed classification as high-luminosity, low-redshift quasars."
-          
+
     Certificates:
       - name: "High Energy Astrophysics Winter School (HEAP'26)"
         issuer: "TÜBİTAK Research Institute of Fundamental Sciences (TBAE)"
-        date: "Feb 2026"
-        icon: "fa-solid fa-graduation-cap"
+        date: "2026-02-01"
         summary: "Focus on high-energy astrophysical processes, multi-messenger astronomy, and time-domain analysis."
-
 
     Publications:
       - title: "Discovery of Six Low-z, High-luminosity, and High-mass Quasars"
-        authors:
-          - Hökelek, S.
-          - Kaçan, E. S.
-          - Ak, N. F.
-        publisher: Publications of the Astronomical Society of the Pacific (PASP)
-        releaseDate: 2024
+        authors: ["Hökelek, S.", "Kaçan, E. S.", "Ak, N. F."]
+        publisher: "Publications of the Astronomical Society of the Pacific (PASP)"
+        release_date: "2024-11-01"
         url: "https://doi.org/10.1088/1538-3873/ad8b6b"
         summary: "Volume 136(11), 114101. This study presents the discovery of six low-redshift quasars, identified through spectral observations conducted with the RTT-150 telescope. Our analysis includes detailed modeling of their continuum and emission line properties, which allowed us to estimate their bolometric luminosities, central black hole masses, and Eddington ratios."
 
       - title: "Quasars Discovered by RTT-150 TFOSC Spectral Observations"
-        authors:
-          - Hökelek, S.
-          - Filiz Ak, N.
-        publisher: Turkish Journal of Astronomy and Astrophysics (TJAA)
-        releaseDate: 2022
+        authors: ["Hökelek, S.", "Filiz Ak, N."]
+        publisher: "Turkish Journal of Astronomy and Astrophysics (TJAA)"
+        release_date: "2022-09-01"
         url: "https://doi.org/10.55064/tjaa.1037278"
         summary: "TJAA, 3(3), 6-9. This study presents the first spectroscopic observations of four quasar candidates. We select the quasar candidates considering the high candidacy probabilities calculated from the SDSS and WISE photometric colors. We obtained the long-slit spectrum of each candidate with RTT-150."
 
       - title: "Determining Redshift in Quasars: zFinder"
-        authors:
-          - Kaçan, E. S.
-          - Hökelek, S.
-          - Filiz Ak, N.
-        publisher: Turkish Journal of Astronomy and Astrophysics (TJAA)
-        releaseDate: 2022
+        authors: ["Kaçan, E. S.", "Hökelek, S.", "Filiz Ak, N."]
+        publisher: "Turkish Journal of Astronomy and Astrophysics (TJAA)"
+        release_date: "2022-09-01"
         url: "https://doi.org/10.55064/tjaa.1037276"
         summary: "TJAA, 3(3), 27-32. This study presents the algorithm and the test results for the zFinder pipeline code that is developed to measure the redshift (z) of the quasar spectra."
 
       - title: "Quasar Wind Variability Prediction with Machine Learning Methods"
-        authors:
-          - Hökelek, S.
-          - Filiz Ak, N.
-        publisher: Turkish Journal of Astronomy and Astrophysics (TJAA)
-        releaseDate: 2023
+        authors: ["Hökelek, S.", "Filiz Ak, N."]
+        publisher: "Turkish Journal of Astronomy and Astrophysics (TJAA)"
+        release_date: "2023-09-01"
         url: "https://doi.org/10.55064/tjaa.1203799"
         summary: "TJAA, 4(3), 195-198. Approximately 20% of the quasars exhibit the Broad Absorption Lines (BALs) as a tracer of the outflows from the accretion disk of the central supermassive black holes."
 
       - title: "AGN Studies of TUG-SRG Collaboration"
-        authors:
-          - Filiz Ak, N.
-          - Hökelek, S.
-          - Boztepe, T.
-          - et al.
-        publisher: Turkish Journal of Astronomy and Astrophysics (TJAA)
-        releaseDate: 2023
+        authors: ["Filiz Ak, N.", "Hökelek, S.", "Boztepe, T.", "et al."]
+        publisher: "Turkish Journal of Astronomy and Astrophysics (TJAA)"
+        release_date: "2023-09-01"
         url: "https://doi.org/10.55064/tjaa.1203755"
         summary: "TJAA, 4(3), 192-198. Active member of the joint Turkish-Russian AGN follow-up program using RTT-150 and SRG/eROSITA data."
 
       - title: "Modeling Blazar TEDs with Simple Regression"
-        authors:
-          - Utku, B.
-          - Filiz Ak, N.
-          - Hökelek, S.
-        publisher: Turkish Journal of Astronomy and Astrophysics (TJAA)
-        releaseDate: 2025
+        authors: ["Utku, B.", "Filiz Ak, N.", "Hökelek, S."]
+        publisher: "Turkish Journal of Astronomy and Astrophysics (TJAA)"
+        release_date: "2025-01-01"
         url: "https://doi.org/10.55064/tjaa.1593725"
         summary: "TJAA, 6(Special Issue), 198-203. Blazars are a subclass of active galactic nuclei characterized by jet structures oriented perpendicular to the accretion disk surrounding the central black hole."
 
       - title: "Bayesian Radial Velocity Solver: BRaVe"
-        authors:
-          - Barbaros, E.
-          - Hökelek, S.
-          - Ak, H.
-          - Filiz Ak, N.
-        publisher: Turkish Journal of Astronomy and Astrophysics (TJAA)
-        releaseDate: 2025
+        authors: ["Barbaros, E.", "Hökelek, S.", "Ak, H.", "Filiz Ak, N."]
+        publisher: "Turkish Journal of Astronomy and Astrophysics (TJAA)"
+        release_date: "2025-01-01"
         url: "https://doi.org/10.55064/tjaa.1598320"
         summary: "TJAA, 6(Special Issue), 338-343. The analysis of the time-dependent radial velocity curves of double stars allows direct determination of the physical parameters of the components. The program BRaVe obtains orbital parameters and errors with high precision."
 
       - title: "Spectral Verification of 6 Low-z Quasars with RTT-150"
-        authors:
-          - Hökelek, S.
-          - Kacan, E. S.
-          - Filiz Ak, N.
-        publisher: Turkish Journal of Astronomy and Astrophysics (TJAA)
-        releaseDate: 2025
+        authors: ["Hökelek, S.", "Kacan, E. S.", "Filiz Ak, N."]
+        publisher: "Turkish Journal of Astronomy and Astrophysics (TJAA)"
+        release_date: "2025-01-01"
         url: "https://doi.org/10.55064/tjaa.1632477"
         summary: "TJAA, 6(Special Issue), 194-197. This paper presents the discovery of 6 quasars that have been spectrally confirmed for the first time using the RTT-150 telescope and the TFOSC spectrometer."
 
     Skills:
       - name: Programming & Data Science
-        level: Advanced
-        icon: fa-solid fa-code
-        keywords: "Python (Astropy, SciPy, NumPy, Pandas, Matplotlib, Scikit-learn), MATLAB, Fortran, Bash"
-
+        details: "Python (Astropy, SciPy, NumPy, Pandas, Matplotlib, Scikit-learn), MATLAB, Fortran, Bash"
       - name: Astrophysics Software
-        level: Advanced
-        icon: fa-solid fa-star
-        keywords: "IRAF, DS9, TOPCAT, AstroImageJ, XSPEC"
-
+        details: "IRAF, DS9, TOPCAT, AstroImageJ, XSPEC"
       - name: Tools & Environment
-        level: Intermediate
-        icon: fa-solid fa-terminal
-        keywords: "Git, GitHub, LaTeX, Beamer, Linux/Unix Environment"
-
+        details: "Git, GitHub, LaTeX, Beamer, Linux/Unix Environment"
       - name: Observational Techniques
-        level: Advanced
-        icon: fa-solid fa-eye
-        keywords: "Optical Spectroscopy (Long-slit), CCD Photometry, Data Reduction, Flux Calibration"
+        details: "Optical Spectroscopy (Long-slit), CCD Photometry, Data Reduction, Flux Calibration"
 
     Languages:
       - name: Turkish
-        summary: "Native"
-
+        details: "Native"
       - name: English
-        summary: "B1+, Academic"
+        details: "B1+, Academic"
 
     Interests:
       - name: Research Areas
-        icon: fa-solid fa-atom
-        keywords: "Active Galactic Nuclei (AGN), Quasars, Time-Domain Astronomy, Photoionization Modeling, Observational Cosmology, Machine Learning"
+        details: "Active Galactic Nuclei (AGN), Quasars, Time-Domain Astronomy, Photoionization Modeling, Observational Cosmology, Machine Learning"
 
     Projects:
       - name: EasyReduct
         summary: Contributor to the RTT-150 data reduction and analysis pipeline.
+        start_date: 2020-01-01
+        end_date: ""
         highlights:
           - "Data Reduction"
           - "Pipeline Development"
-        start_date: 2020-01-01
-        end_date: Present
 
       - name: BRaVe (Bayesian Radial Velocity Solver)
         summary: Bayesian Radial Velocity Solver for precise RV measurements.
+        start_date: 2022-01-01
+        end_date: ""
         highlights:
           - "Bayesian Statistics"
           - "Radial Velocity"
-        start_date: 2022-01-01
-        end_date: Present
 
       - name: zFinder
         summary: Redshift estimation tool for quasar spectra.
+        start_date: 2022-01-01
+        end_date: ""
         highlights:
           - "Spectral Analysis"
           - "Redshift Estimation"
-        start_date: 2022-01-01
-        end_date: Present
 
     References:
       - name: Assist. Prof. Dr. Nurten Filiz Ak
-        icon: fa-solid fa-user-graduate
-        reference: Dr. Filiz Ak has supervised my research since 2020, including my Master's thesis and current PhD studies. She can provide detailed insight into my observational experience with the RTT-150 telescope (80+ nights), my skills in spectral data reduction, and my contributions to the development of analysis tools such as EasyReduct, zFinder and BRaVe. We also co-authored the paper published in PASP (2024)."
+        details: "Dr. Filiz Ak has supervised my research since 2020, including my Master's thesis and current PhD studies. She can provide detailed insight into my observational experience with the RTT-150 telescope (80+ nights), my skills in spectral data reduction, and my contributions to the development of analysis tools such as EasyReduct, zFinder and BRaVe. We also co-authored the paper published in PASP (2024)."
 
       - name: Assist. Prof. Dr. Mustafa Kürşad Yıldız
-        icon: fa-solid fa-user-graduate
-        reference: Dr. Yıldız is a faculty member in my department and is familiar with my academic coursework and general research conduct. He can attest to my theoretical background in astronomy and my performance as a graduate researcher within the department."
+        details: "Dr. Yıldız is a faculty member in my department and is familiar with my academic coursework and general research conduct. He can attest to my theoretical background in astronomy and my performance as a graduate researcher within the department."
