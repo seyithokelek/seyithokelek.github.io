@@ -4,6 +4,8 @@ title: about
 permalink: /
 subtitle: Ph.D. Candidate in Astronomy and Space Sciences
 
+cv_pdf: /assets/pdf/Cv_SeyitHokelek.pdf
+
 profile:
   align: right
   image: prof_pic.png
