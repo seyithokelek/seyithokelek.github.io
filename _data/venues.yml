@@ -1,9 +1,10 @@
-"AJP":
+"TJAA":
   url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+  color: "#006BB4"
 
-"PhysRev":
+"PASP":
   url: https://journals.aps.org/
+  color: "#FFDB7A"
 
 "Vision":
   color: "#009f36"
