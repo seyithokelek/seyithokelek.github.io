@@ -15,6 +15,8 @@ profile:
 news: false # includes a list of news items
 selected_papers: False # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
+intro_gif: /assets/img/flammarion_engraving.gif
+intro_gif_alt: Flammarion engraving
 ---
 
 Welcome! I am Seyit Hökelek, an astrophysicist, data scientist, and
