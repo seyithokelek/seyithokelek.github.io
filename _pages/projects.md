@@ -26,6 +26,7 @@ social: true
 {% for category in page.display_categories %}
 {% assign section_id = category | slugify %}
 <a id="{{ section_id }}" href="#{{ section_id }}">
+
 <h2 class="category">{{ category }}</h2>
 </a>
 {% assign categorized_projects = site.projects | where: "category", category %}
