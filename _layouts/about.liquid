@@ -16,11 +16,13 @@ layout: default
 
   {% if page.intro_gif %}
     <div class="about-hero-gif text-center mt-3 mb-4">
-      <img src="{{ page.intro_gif | relative_url }}" 
-           class="img-fluid rounded z-depth-1" 
-           alt="{{ page.intro_gif_alt | default: 'About page illustration' }}" 
-           loading="eager" 
-           style="width: 100%; max-width: 400px; height: auto;">
+      <img
+        src="{{ page.intro_gif | relative_url }}"
+        class="img-fluid rounded z-depth-1"
+        alt="{{ page.intro_gif_alt | default: 'About page illustration' }}"
+        loading="eager"
+        style="width: 100%; max-width: 400px; height: auto;"
+      >
     </div>
   {% endif %}
 
